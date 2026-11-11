@@ -1,0 +1,6 @@
+[
+  {"args":["etag_precondition_replay.py","examples/weak-write.json"],"exit":1,"report":{"status":"short_circuit","http_status":412,"precondition":"if_match"}},
+  {"args":["etag_precondition_replay.py","examples/weak-read.json"],"exit":1,"report":{"status":"short_circuit","http_status":304,"precondition":"if_none_match"}},
+  {"args":["etag_precondition_replay.py","examples/create-absent.json"],"exit":0,"report":{"status":"continue","http_status":null,"precondition":null}},
+  {"args":["etag_precondition_replay.py","examples/invalid-mixed-list.json"],"exit":2,"report":{"status":"invalid"}}
+]
